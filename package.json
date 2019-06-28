@@ -1,0 +1,29 @@
+{
+  "name": "site-project-8-pattern_work-web_studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaroslav-bodnar/site-project-8-pattern_work-web_studio.git"
+  },
+  "author": "Yaroslav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaroslav-bodnar/site-project-8-pattern_work-web_studio/issues"
+  },
+  "homepage": "https://github.com/yaroslav-bodnar/site-project-8-pattern_work-web_studio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
