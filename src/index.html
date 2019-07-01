@@ -2,27 +2,154 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>БОРОДИНСКИЙ</title>
 	<link rel="icon" href="#">
-
-	<!-- Bootstrap grid CSS -->
-	<link rel="stylesheet" href="./css/bootstrap-grid.min.css">
 
 	<!-- Custom styles for this template -->
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-	<header class="header">
-		
+	<header class="main-header">
+		<nav class="main-header__navigation">
+			<a href="#"><img src="./img/header/index-logo.png" alt="logo" class="main-header__navigation__logo"></a>
+			<ul class="main-header__navigation__list">
+				<li>
+					<a href="info.html">ИНФОРМАЦИЯ</a>
+				</li>
+				<li>
+					<a href="news.html">НОВОСТИ</a>
+				</li>
+				<li>
+					<a href="price.html">ПРАЙС-ЛИСТ</a>
+				</li>
+				<li>
+					<a href="catalog.html">МАГАЗИН</a>
+				</li>
+				<li>
+					<a href="contacts.html">КОНТАКТЫ</a>
+				</li>
+			</ul>
+			<ul class="main-header__navigation__login">
+				<li>
+					ВХОД
+				</li>
+			</ul>
+		</nav>
+		<section class="modal main-header__modal-login">
+			<h2 class="main-header__modal-login__title">ЛИЧНЫЙ КАБИНЕТ</h2>
+			<p>Введите пожалуйста свой логин и пароль</p>
+			<!-- Здесь будет форма -->
+			<span class="main-header__modal-login__close">x</span>
+		</section>
 	</header>
-	<nav>
-		
-	</nav>
-	<main>
-		
+
+
+	<main class="main-container">
+		<h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
+
+
+
+		<section class="main-container__features">
+			<h2 class="visually-hidden">Преимущества</h2>
+			<ul class="main-container__features__list">
+				<li class="main-container__features__list__item">
+					<h3>БЫСТРО</h3>
+					<p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+				</li>
+				<li class="main-container__features__list__item">
+					<h3>КРУТО</h3>
+					<p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+				</li>
+				<li class="main-container__features__list__item">
+					<h3>ДОРОГО</h3>
+					<p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+				</li>
+			</ul>
+		</section>
+
+
+
+		<section class="main-container__news">
+			<h2 class="main-container__news__title">НОВОСТИ</h2>
+			<ul class="main-container__news__list">
+				<li>
+					<p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+					<time datetime="2019-01-11">11 января</time>
+				</li>
+				<li>
+					<p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+					<time datetime="2019-01-18">18 января</time>
+				</li>
+			</ul>
+			<a class="button" href="news.html">ВСЕ НОВОСТИ</a>
+		</section>
+
+
+
+		<section class="main-container__gallery">
+			<h2 class="main-container__gallery__title">ФОТОГАЛЕРЕЯ</h2>
+			<figure class="main-container__gallery__content">
+				<a href="#"><img src="#" alt="gallery__content"></a>
+			</figure>
+			<span class="button main-container__gallery__button main-container__gallery__button-back">НАЗАД</span>
+			<span class="button main-container__gallery__button main-container__gallery__button-next">ВПЕРЕД</span>
+		</section>
+
+
+
+		<section class="main-container__contacts">
+			<h2 class="main-container__gallery__title">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+			<p>
+				БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+				АДРЕС: Г. КИЕВ, УЛ. Б. ХМЕЛЬНИЦКОГО, Д. 19/8<br>
+				ТЕЛЕФОН: +38 (099) 777-01-01
+			</p>
+			<p>
+				ВРЕМЯ РАБОТЫ:<br>
+				ПН—ПТ: С 10:00 ДО 22:00<br>
+				СБ—ВС: С 10:00 ДО 19:00
+			</p>
+			<a class="button" href="map.html">КАК ПРОЕХАТЬ</a>
+			<a class="button" href="contacts.html">ОБРАТНАЯ СВЯЗЬ</a>
+		</section>
+
+
+
+		<section class="main-container__modal-map">
+			<h2 class="visually-hidden">Как до нас добраться</h2>
+			<span class="main-container__modal-close">x</span>
+		</section>
+
+
+
+		<section class="main-container__appointment">
+			<h2 class="main-container__appointment__title">ЗАПИСАТЬСЯ</h2>
+			<p class="main-container__appointment__info">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+			<!-- Здесь будет форма -->
+		</section>
 	</main>
-	<footer>
-		
+
+
+
+	<footer class="main-footer">
+		<p class="main-footer__info">
+			БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+			АДРЕС: Г. КИЕВ, УЛ. Б. ХМЕЛЬНИЦКОГО, Д. 19/8<br>
+			<a href="map.html">КАК НАС НАЙТИ?</a><br>
+			ТЕЛЕФОН: +38 (099) 777-01-01
+		</p>
+		<div class="main-footer__social">
+			<span class="main-footer__social__title">ДАВАЙТЕ ДРУЖИТЬ!</span>
+			<ul class="main-footer__social__list">
+				<li><a href="#" class="main-footer__social__list__button">Вконтакте</a></li>
+				<li><a href="#" class="main-footer__social__list__button">Фейсбук</a></li>
+				<li><a href="#" class="main-footer__social__list__button">Инстаграм</a></li>
+			</ul>
+		</div>
+		<p class="main-footer__copyright">
+			<span>РАЗРАБОТАНО:</span>
+			<a href="#" class="button">Bodnar WEB</a>
+		</p>
 	</footer>
 </body>
 </html>
