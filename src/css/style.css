@@ -1,3 +1,73 @@
-.header {
+.main-header {
   width: 100%;
-  background: url(../img/header/background.jpg) center no-repeat; }
+  background: black; }
+  .main-header__navigation {
+    width: 940px;
+    margin: auto;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: #ffffff;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; }
+    .main-header__navigation__list {
+      list-style: none;
+      -webkit-padding-start: 0px;
+      padding-inline-start: 0px;
+      -webkit-margin-after: 0px;
+      margin-block-end: 0px;
+      -webkit-margin-before: 0px;
+      margin-block-start: 0px; }
+      .main-header__navigation__list li {
+        display: inline-block;
+        padding: 30px 20px 20px 20px;
+        border-bottom: solid 10px black; }
+        .main-header__navigation__list li:hover {
+          background: #242424;
+          border-bottom: solid 10px #242424; }
+        .main-header__navigation__list li:active {
+          border-bottom: solid 10px white; }
+        .main-header__navigation__list li a {
+          text-decoration: none;
+          color: white; }
+    .main-header__navigation__login {
+      list-style: none;
+      -webkit-padding-start: 0px;
+      padding-inline-start: 0px;
+      -webkit-margin-after: 0px;
+      margin-block-end: 0px;
+      -webkit-margin-before: 0px;
+      margin-block-start: 0px; }
+      .main-header__navigation__login li {
+        display: inline-block;
+        padding: 30px 20px 20px 20px;
+        border-bottom: solid 10px black; }
+        .main-header__navigation__login li:hover {
+          background: #242424;
+          border-bottom: solid 10px #242424; }
+        .main-header__navigation__login li:active {
+          border-bottom: solid 10px white; }
+
+.main-container {
+  background: url(../img/background.jpg) center no-repeat;
+  width: 100%; }
+
+.visually-hidden {
+  display: none; }
+
+.main-container__features {
+  width: 940px;
+  margin: auto;
+  color: white;
+  text-align: center; }
+  .main-container__features__list {
+    list-style: none; }
+
+.visually-hidden {
+  display: none; }
