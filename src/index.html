@@ -57,7 +57,7 @@
 			</ul>
 			<ul class="main-header__navigation__login">
 				<li class="icon-login">
-					ВХОД
+					<a href="#">ВХОД</a>
 				</li>
 			</ul>
 		</nav>
@@ -98,7 +98,7 @@
 
 
 
-		<section class="main-container__news">
+		<!-- <section class="main-container__news">
 			<h2 class="main-container__news__title">НОВОСТИ</h2>
 			<ul class="main-container__news__list">
 				<li>
@@ -154,7 +154,7 @@
 		<section class="main-container__appointment">
 			<h2 class="main-container__appointment__title">ЗАПИСАТЬСЯ</h2>
 			<p class="main-container__appointment__info">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
-			<!-- Здесь будет форма -->
+			<!-- Здесь будет форма
 		</section>
 	</main>
 
@@ -179,6 +179,14 @@
 			<span>РАЗРАБОТАНО:</span>
 			<a href="#" class="button">Bodnar WEB</a>
 		</p>
-	</footer>
+	</footer> --> -->
+	<script>
+		var link = document.querySelector(".icon-login");
+
+		link.addEventListener("click", function(evt) {
+			evt.preventDefault();
+			console.log("Клик по ссылке Вход");
+		});
+	</script>
 </body>
 </html>
