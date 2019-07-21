@@ -80,17 +80,17 @@
 			<ul class="main-container__features__list">
 				<li class="main-container__features__list__item">
 					<h3>БЫСТРО</h3>
-					<p class="icon-fighter-jet"></p>
+					<span class="icon-fighter-jet"></span>
 					<p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
 				</li>
 				<li class="main-container__features__list__item">
 					<h3>КРУТО</h3>
-					<p class="icon-paw"></p>
+					<span class="icon-paw"></span>
 					<p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
 				</li>
 				<li class="main-container__features__list__item">
 					<h3>ДОРОГО</h3>
-					<p class="icon-money"></p>
+					<span class="icon-money"></span>
 					<p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
 				</li>
 			</ul>
@@ -98,31 +98,36 @@
 
 
 
-		<!-- <section class="main-container__news">
-			<h2 class="main-container__news__title">НОВОСТИ</h2>
-			<ul class="main-container__news__list">
-				<li>
-					<p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
-					<time datetime="2019-01-11">11 января</time>
-				</li>
-				<li>
-					<p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
-					<time datetime="2019-01-18">18 января</time>
-				</li>
-			</ul>
-			<a class="button" href="news.html">ВСЕ НОВОСТИ</a>
-		</section>
-
-
-
-		<section class="main-container__gallery">
-			<h2 class="main-container__gallery__title">ФОТОГАЛЕРЕЯ</h2>
-			<figure class="main-container__gallery__content">
-				<a href="#"><img src="#" alt="gallery__content"></a>
-			</figure>
-			<span class="button main-container__gallery__button main-container__gallery__button-back">НАЗАД</span>
-			<span class="button main-container__gallery__button main-container__gallery__button-next">ВПЕРЕД</span>
-		</section>
+		<div class="sections-news_and_gallery">
+			<section class="main-container__news">
+				<h2 class="main-container__news__title">НОВОСТИ</h2>
+				<ul class="main-container__news__list">
+					<li>
+						<p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+						<time datetime="2019-01-11">11 января</time>
+					</li>
+					<li>
+						<p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+						<time datetime="2019-01-18">18 января</time>
+					</li>
+				</ul>
+				<a class="button" href="news.html">ВСЕ НОВОСТИ</a>
+			</section>
+			
+			
+			
+			<section class="main-container__gallery">
+				<h2 class="main-container__gallery__title">ФОТОГАЛЕРЕЯ</h2>
+				<figure class="main-container__gallery__content">
+					<a href="#"><img src="./img/index_gallery/gallery_picture_1.jpg" alt="gallery__content"></a>
+					<a href="#"><img src="./img/index_gallery/gallery_picture_2.jpg" alt="gallery__content"></a>
+					<a href="#"><img src="./img/index_gallery/gallery_picture_3.jpg" alt="gallery__content"></a>
+					<a href="#"><img src="./img/index_gallery/gallery_picture_4.jpg" alt="gallery__content"></a>
+				</figure>
+				<button class="button main-container__gallery__button main-container__gallery__button-back">НАЗАД</button>
+				<button class="button main-container__gallery__button main-container__gallery__button-next">ВПЕРЕД</button>
+			</section>
+		</div>
 
 
 
@@ -144,17 +149,17 @@
 
 
 
-		<section class="main-container__modal-map">
+		<!-- <section class="main-container__modal-map">
 			<h2 class="visually-hidden">Как до нас добраться</h2>
 			<span class="main-container__modal-close">x</span>
-		</section>
+		</section> -->
 
 
 
 		<section class="main-container__appointment">
 			<h2 class="main-container__appointment__title">ЗАПИСАТЬСЯ</h2>
 			<p class="main-container__appointment__info">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
-			<!-- Здесь будет форма
+			<!-- Здесь будет форма -->
 		</section>
 	</main>
 
@@ -179,13 +184,47 @@
 			<span>РАЗРАБОТАНО:</span>
 			<a href="#" class="button">Bodnar WEB</a>
 		</p>
-	</footer> --> -->
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- ====================SCRIPTS============================ -->
+	<!-- ======================================================= -->
+	<script src="./js/script.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./js/wow.min.js"></script>
+
 	<script>
 		var link = document.querySelector(".icon-login");
 
 		link.addEventListener("click", function(evt) {
 			evt.preventDefault();
 			console.log("Клик по ссылке Вход");
+		});
+	</script>
+	<script src="./slick/slick.js"></script>
+	<script>
+		$('.single-item, main-container__gallery__content').slick({
+			arrows: true,
+			slidesToShow: 1,
+			slidesToScroll: 1
 		});
 	</script>
 </body>
