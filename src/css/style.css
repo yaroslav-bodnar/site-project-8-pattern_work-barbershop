@@ -14,10 +14,12 @@ body {
 
 .button {
   background-color: #000000;
+  cursor: pointer;
+  width: 145px;
   padding-top: 17px;
   padding-bottom: 17px;
   color: #faf7f4;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 24px; }
 
@@ -81,7 +83,7 @@ body {
           color: white; }
 
 .main-container {
-  background: url(../img/background.jpg) center no-repeat;
+  background: url(../img/background.jpg) center repeat;
   width: 100%; }
 
 .main-container__features {
@@ -171,3 +173,29 @@ body {
     text-decoration: none;
     padding-left: 34px;
     padding-right: 34px; }
+
+.main-container__gallery {
+  width: 390px;
+  margin-top: 50px; }
+  .main-container__gallery__title {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px; }
+  .main-container__gallery__content {
+    margin: 0px; }
+  .main-container__gallery div {
+    margin-bottom: 55px;
+    width: 300px;
+    max-height: 200px; }
+  .main-container__gallery__button {
+    cursor: pointer;
+    font-family: "PT Sans", sans-serif;
+    border: 0px; }
+  .main-container__gallery .prev {
+    margin-right: 4px;
+    margin-bottom: 50px; }
+  .main-container__gallery .next {
+    margin-left: 4px;
+    margin-bottom: 50px; }

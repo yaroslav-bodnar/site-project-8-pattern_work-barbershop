@@ -119,13 +119,12 @@
 			<section class="main-container__gallery">
 				<h2 class="main-container__gallery__title">ФОТОГАЛЕРЕЯ</h2>
 				<figure class="main-container__gallery__content">
-					<a href="#"><img src="./img/index_gallery/gallery_picture_1.jpg" alt="gallery__content"></a>
-					<a href="#"><img src="./img/index_gallery/gallery_picture_2.jpg" alt="gallery__content"></a>
-					<a href="#"><img src="./img/index_gallery/gallery_picture_3.jpg" alt="gallery__content"></a>
-					<a href="#"><img src="./img/index_gallery/gallery_picture_4.jpg" alt="gallery__content"></a>
+					<div><a href="#"><img src="./img/index_gallery/gallery_1.jpg" alt="gallery__content"></a></div>
+					<div><a href="#"><img src="./img/index_gallery/gallery_2.jpg" alt="gallery__content"></a></div>
+					<div><a href="#"><img src="./img/index_gallery/gallery_3.jpg" alt="gallery__content"></a></div>
 				</figure>
-				<button class="button main-container__gallery__button main-container__gallery__button-back">НАЗАД</button>
-				<button class="button main-container__gallery__button main-container__gallery__button-next">ВПЕРЕД</button>
+				<button class="button main-container__gallery__button prev">НАЗАД</button>
+				<button class="button main-container__gallery__button next">ВПЕРЕД</button>
 			</section>
 		</div>
 
@@ -211,20 +210,30 @@
 	<script src="./js/jquery-3.4.1.min.js"></script>
 	<script src="./js/wow.min.js"></script>
 
+
+	<script src="./slick/slick.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.one-time, .main-container__gallery__content').slick({
+				// dots: true,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1,
+				adaptiveHeight: true,
+				prevArrow: $('.prev'),
+				nextArrow: $('.next')
+			});
+		});
+	</script>
+
+
+
 	<script>
 		var link = document.querySelector(".icon-login");
 
 		link.addEventListener("click", function(evt) {
 			evt.preventDefault();
 			console.log("Клик по ссылке Вход");
-		});
-	</script>
-	<script src="./slick/slick.js"></script>
-	<script>
-		$('.single-item, main-container__gallery__content').slick({
-			arrows: true,
-			slidesToShow: 1,
-			slidesToScroll: 1
 		});
 	</script>
 </body>
