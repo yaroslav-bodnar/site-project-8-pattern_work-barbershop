@@ -160,15 +160,23 @@
 				<h2 class="main-container__appointment__title">ЗАПИСАТЬСЯ</h2>
 				<p class="main-container__appointment__info">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
 				<form class="index-main_form" action="#">
-					<label for="date">ДАТА</label>
-					<input id="date" name="date" type="date" min="2019-01-01" max="2020-01-01">
-					<label for="time">ВРЕМЯ</label>
-					<input id="time" name="time" type="time">
-					<label for="name">ВАШЕ ИМЯ</label>
-					<input id="name" name="name" type="text">
-					<label for="tel">ТЕЛЕФОН</label>
-					<input id="tel" name="tel" type="tel">
-					<input class="button" type="submit" value="ОТПРАВИТЬ">
+					<div class="index-main_form__date">
+						<label class="index-main_form__label" for="date">ДАТА</label><br>
+						<input class="index-main_form__input" id="date" name="date" type="date" min="2019-01-01" max="2020-01-01">
+					</div>
+					<div class="index-main_form__time">
+						<label class="index-main_form__label" for="time">ВРЕМЯ</label><br>
+						<input class="index-main_form__input" id="time" name="time" type="time">
+					</div>
+					<div class="index-main_form__name">
+						<label class="index-main_form__label" for="name">ВАШЕ ИМЯ</label><br>
+						<input class="index-main_form__input" id="name" name="name" type="text">
+					</div>
+					<div class="index-main_form__tel">
+						<label class="index-main_form__label" for="tel">ТЕЛЕФОН</label><br>
+						<input class="index-main_form__input" id="tel" name="tel" type="tel">
+					</div>
+					<input class="button index-main_form__submit" type="submit" value="ОТПРАВИТЬ">
 				</form>
 			</section>
 		</div>
