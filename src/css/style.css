@@ -122,7 +122,7 @@ body {
         font-weight: 400;
         line-height: 24px; }
 
-.sections-news_and_gallery {
+.section-news_and_gallery {
   background: #f6f3f0;
   width: 940px;
   min-height: 419px;
@@ -146,12 +146,13 @@ body {
   max-width: 390px;
   margin-left: 80px;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding-right: 36px;
   border-right: 3px outset; }
   .main-container__news__title {
     margin-top: 0px;
     margin-bottom: 33px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 42px; }
   .main-container__news__list {
@@ -169,18 +170,17 @@ body {
         margin-bottom: 29px; }
   .main-container__news a {
     display: inline-block;
-    margin-bottom: 50px;
     text-decoration: none;
     padding-left: 34px;
     padding-right: 34px; }
 
 .main-container__gallery {
   width: 390px;
-  margin-top: 50px; }
+  margin: 50px 0px 50px 90px; }
   .main-container__gallery__title {
     margin-top: 0px;
     margin-bottom: 40px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 42px; }
   .main-container__gallery__content {
@@ -194,8 +194,49 @@ body {
     font-family: "PT Sans", sans-serif;
     border: 0px; }
   .main-container__gallery .prev {
-    margin-right: 4px;
-    margin-bottom: 50px; }
+    margin-right: 4px; }
   .main-container__gallery .next {
-    margin-left: 4px;
-    margin-bottom: 50px; }
+    margin-left: 4px; }
+
+.section-contacts_and_appointment {
+  background: #f6f3f0;
+  width: 940px;
+  min-height: 435px;
+  margin: auto;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.main-container__contacts {
+  width: 390px;
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-right: 3px outset; }
+  .main-container__contacts__title {
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 42px; }
+  .main-container__contacts p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px; }
+  .main-container__contacts a {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center; }
+
+.main-container__appointment {
+  width: 330px;
+  margin: 50px 0px 50px 90px; }
