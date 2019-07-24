@@ -159,8 +159,17 @@
 			<section class="main-container__appointment">
 				<h2 class="main-container__appointment__title">ЗАПИСАТЬСЯ</h2>
 				<p class="main-container__appointment__info">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
-				<form action=""></form>
-				<!-- Здесь будет форма -->
+				<form class="index-main_form" action="#">
+					<label for="date">ДАТА</label>
+					<input id="date" name="date" type="date" min="2019-01-01" max="2020-01-01">
+					<label for="time">ВРЕМЯ</label>
+					<input id="time" name="time" type="time">
+					<label for="name">ВАШЕ ИМЯ</label>
+					<input id="name" name="name" type="text">
+					<label for="tel">ТЕЛЕФОН</label>
+					<input id="tel" name="tel" type="tel">
+					<input class="button" type="submit" value="ОТПРАВИТЬ">
+				</form>
 			</section>
 		</div>
 	</main>
