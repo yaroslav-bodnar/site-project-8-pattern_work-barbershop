@@ -80,7 +80,8 @@ body {
           border-bottom: solid 10px white; }
         .main-header__navigation__login li a {
           text-decoration: none;
-          color: white; }
+          color: white;
+          cursor: pointer; }
 
 .main-container {
   background: url(../img/background.jpg) center repeat;
@@ -277,5 +278,91 @@ body {
     border: 0px;
     width: 300px; }
 
+.index-footer {
+  background: #252525;
+  color: white; }
+
 .main-footer {
-  background: #252525; }
+  width: 940px;
+  margin: auto;
+  padding-top: 62px;
+  padding-bottom: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .main-footer__info {
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px; }
+    .main-footer__info a {
+      color: white; }
+  .main-footer__social {
+    text-align: center; }
+    .main-footer__social__title {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 20px; }
+    .main-footer__social__list {
+      list-style: none;
+      -webkit-padding-start: 0px;
+      padding-inline-start: 0px;
+      -webkit-margin-after: 0px;
+      margin-block-end: 0px;
+      -webkit-margin-before: 0px;
+      margin-block-start: 0px;
+      margin-top: 30px; }
+      .main-footer__social__list li {
+        display: inline-block; }
+        .main-footer__social__list li a {
+          text-decoration: none;
+          color: white;
+          padding: 10px;
+          background: black; }
+  .main-footer__copyright {
+    margin: 0px;
+    text-align: center; }
+    .main-footer__copyright span {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      display: inline-block;
+      margin-bottom: 30px; }
+    .main-footer__copyright a {
+      text-decoration: none;
+      padding: 10px 20px 10px 20px; }
+
+.catalog-main {
+  background: #f5f2ef;
+  padding-top: 60px; }
+  .catalog-main__head {
+    width: 940px;
+    margin: auto; }
+    .catalog-main__head__title {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 42px;
+      margin: 0px 0px 28px 0px; }
+    .catalog-main__head__list {
+      list-style: none;
+      -webkit-padding-start: 0px;
+      padding-inline-start: 0px;
+      -webkit-margin-after: 0px;
+      margin-block-end: 0px;
+      -webkit-margin-before: 0px;
+      margin-block-start: 0px; }
+      .catalog-main__head__list li {
+        display: inline-block; }
+        .catalog-main__head__list li a {
+          text-decoration: none;
+          color: black;
+          margin-right: 10px;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 20px; }
+          .catalog-main__head__list li a:before {
+            margin-right: 15px; }
